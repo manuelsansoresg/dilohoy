@@ -115,7 +115,7 @@
           <p class="text-muted">Desde locales pequeños hasta grandes servicios, todos se benefician.</p>
         </div>
       </div>
-      <div class="row g-4">
+      <div class="row g-4 casos-grid">
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="card h-100">
             <img src="https://picsum.photos/id/1082/1200/800" class="card-img-top" alt="Restaurantes">
@@ -182,7 +182,7 @@
           <p class="text-muted">Opiniones reales de usuarios y dueños de negocio.</p>
         </div>
       </div>
-      <div class="row g-4 mt-5">
+      <div class="row g-4 mt-5 testimonials-grid">
         <div class="col-12 col-md-6 col-lg-4">
           <div class="testimonial-card position-relative text-center p-4">
             <div class="testimonial-avatar mx-auto">
@@ -237,7 +237,7 @@
           <p class="text-muted">Planes diseñados para crecer contigo.</p>
         </div>
       </div>
-      <div class="row g-4">
+      <div class="row g-4 price-grid">
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card price-card h-100">
             <div class="card-body text-center">
@@ -253,7 +253,8 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <div class="card price-card h-100">
+          <div class="card price-card h-100 featured">
+            <div class="price-badge">Popular</div>
             <div class="card-body text-center">
               <h5 class="card-title">Pro</h5>
               <p class="display-6 fw-bold">$19</p>
@@ -375,7 +376,7 @@
     </div>
   </section>
 
-  <footer id="footer" class="footer pt-5 pb-4">
+  <footer id="footer" class="footer pt-5 pb-4 reveal">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 mb-3">

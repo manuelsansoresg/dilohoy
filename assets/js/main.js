@@ -29,4 +29,31 @@ document.addEventListener('DOMContentLoaded',function(){
       onScroll();
     }
   })();
-});
+
+  (function(){
+    var coarse=window.matchMedia&&window.matchMedia('(pointer: coarse)').matches;
+    if(coarse)return;
+    var max=8;
+    var cards=document.querySelectorAll('.price-card');
+    cards.forEach(function(card){
+      var rect;
+      var setTilt=function(x,y){
+        var rx=(0.5-y)*max*2;
+        var ry=(x-0.5)*max*2;
+        card.style.transform='perspective(800px) rotateX('+rx+'deg) rotateY('+ry+'deg)';
+      };
+      card.addEventListener('mouseenter',function(){card.style.transition='transform .12s ease'});
+      card.addEventListener('mousemove',function(e){
+        rect=rect||card.getBoundingClientRect();
+        var x=(e.clientX-rect.left)/rect.width;
+        var y=(e.clientY-rect.top)/rect.height;
+        setTilt(x,y);
+      });
+      card.addEventListener('mouseleave',function(){
+        rect=null;
+        card.style.transition='transform .18s ease';
+        card.style.transform='';
+      });
+    });
+  })();
+}); 

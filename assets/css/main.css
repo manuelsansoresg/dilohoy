@@ -1,12 +1,19 @@
 :root{--brand:#1a73e8;--text:#202124;--muted:#5f6368}
 :root{--star:#fbbc04}
 html,body{height:100%}
-body{font-family:'Roboto',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:#fff}
+body{margin:0;font-family:'Roboto',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:#fff}
+html{scroll-behavior:smooth}
 section{padding:64px 0}
 .section-title{font-weight:700}
+.section-title{position:relative}
+.section-title::after{content:"";position:absolute;left:50%;transform:translateX(-50%) scaleX(0);bottom:-10px;height:3px;width:64px;background:var(--brand);border-radius:3px;opacity:.9;transform-origin:left}
+.reveal.show .section-title{animation:titleIn .5s ease both}
+.reveal.show .section-title::after{animation:underlineGrow .6s ease .15s both}
 .lead{color:var(--muted)}
 .hero{height:80vh}
+.hero{padding:0}
 .hero .carousel-item img{height:80vh;object-fit:cover}
+.hero .carousel-item.active img{animation:slowZoom 8s ease-in-out forwards}
 .hero-overlay{position:absolute;inset:0;padding:0 16px}
 .hero-overlay{background:linear-gradient(180deg,rgba(0,0,0,.45) 0%,rgba(0,0,0,.25) 40%,rgba(0,0,0,0) 100%)}
 .hero-overlay h1,.hero-overlay p{color:#fff}
@@ -26,11 +33,35 @@ section{padding:64px 0}
 .card{border:1px solid #e8eaed;border-radius:16px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
 .price-card .btn-buy{transition:transform .2s ease,box-shadow .2s ease,background-color .2s ease;background-color:var(--brand);border-color:var(--brand)}
 .price-card .btn-buy:hover{transform:translateY(-1px) scale(1.04);box-shadow:0 8px 20px rgba(26,115,232,.3);background-color:#1765cf;border-color:#1765cf}
+.price-card{position:relative;transition:transform .15s ease,box-shadow .2s ease;will-change:transform}
+.price-card:hover{box-shadow:0 12px 28px rgba(0,0,0,.12)}
+.price-card.featured{border:2px solid var(--brand);box-shadow:0 12px 28px rgba(26,115,232,.18);transform:translateY(-2px)}
+.price-card.featured .btn-buy{background-color:#1765cf;border-color:#1765cf}
+.price-badge{position:absolute;top:12px;right:12px;background:var(--brand);color:#fff;border-radius:999px;padding:6px 12px;font-weight:700;font-size:.75rem;box-shadow:0 6px 16px rgba(26,115,232,.24)}
 .footer{background:#f8f9fa;color:var(--muted)}
 .card-img-top{height:200px;object-fit:cover}
 .reveal{opacity:0}
 .reveal.show{opacity:1;animation:fadeUp .6s ease both}
 .parallax.reveal.show{animation:fadeOnly .6s ease both}
+.price-grid .price-card{opacity:0;transform:translateY(12px)}
+#precios.reveal.show .price-grid .price-card{animation:fadeUp .5s ease both}
+#precios.reveal.show .price-grid>[class*="col-"]:nth-child(1) .price-card{animation-delay:.05s}
+#precios.reveal.show .price-grid>[class*="col-"]:nth-child(2) .price-card{animation-delay:.15s}
+#precios.reveal.show .price-grid>[class*="col-"]:nth-child(3) .price-card{animation-delay:.25s}
+#precios.reveal.show .price-grid>[class*="col-"]:nth-child(4) .price-card{animation-delay:.35s}
+.casos-grid .card{opacity:0;transform:translateY(12px)}
+#casos.reveal.show .casos-grid .card{animation:fadeUp .5s ease both}
+#casos.reveal.show .casos-grid>[class*="col-"]:nth-child(1) .card{animation-delay:.05s}
+#casos.reveal.show .casos-grid>[class*="col-"]:nth-child(2) .card{animation-delay:.1s}
+#casos.reveal.show .casos-grid>[class*="col-"]:nth-child(3) .card{animation-delay:.15s}
+#casos.reveal.show .casos-grid>[class*="col-"]:nth-child(4) .card{animation-delay:.2s}
+#casos.reveal.show .casos-grid>[class*="col-"]:nth-child(5) .card{animation-delay:.25s}
+#casos.reveal.show .casos-grid>[class*="col-"]:nth-child(6) .card{animation-delay:.3s}
+.testimonials-grid .testimonial-card{opacity:0;transform:translateY(12px)}
+#testimonios.reveal.show .testimonials-grid .testimonial-card{animation:fadeUp .5s ease both}
+#testimonios.reveal.show .testimonials-grid>[class*="col-"]:nth-child(1) .testimonial-card{animation-delay:.05s}
+#testimonios.reveal.show .testimonials-grid>[class*="col-"]:nth-child(2) .testimonial-card{animation-delay:.15s}
+#testimonios.reveal.show .testimonials-grid>[class*="col-"]:nth-child(3) .testimonial-card{animation-delay:.25s}
 .flow-wrap .flow-step{opacity:0}
 .reveal.show .flow-step{animation:zoomIn .5s ease both}
 .flow-wrap .flow-step:nth-child(1){animation-delay:.05s}
@@ -41,6 +72,9 @@ section{padding:64px 0}
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @keyframes zoomIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
 @keyframes fadeOnly{from{opacity:0}to{opacity:1}}
+@keyframes titleIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes underlineGrow{from{transform:translateX(-50%) scaleX(0)}to{transform:translateX(-50%) scaleX(1)}}
+@keyframes slowZoom{from{transform:scale(1)}to{transform:scale(1.06)}}
 @media (pointer: coarse){
   .parallax{background-attachment:scroll}
 }
@@ -49,7 +83,24 @@ section{padding:64px 0}
 .testimonial-avatar{width:100px;height:100px;border-radius:50%;overflow:hidden;border:4px solid #fff;box-shadow:0 6px 16px rgba(0,0,0,.15);position:absolute;left:50%;top:0;transform:translate(-50%,-50%)}
 .testimonial-avatar img{width:100%;height:100%;object-fit:cover}
 .testimonial-name{font-weight:700;color:var(--text)}
+.testimonials-grid .testimonial-name{opacity:0;transform:translateY(6px)}
+#testimonios.reveal.show .testimonials-grid .testimonial-name{animation:titleIn .45s ease both}
 .testimonial-quote{font-style:italic;color:var(--muted);line-height:1.6}
 .testimonial-stars i{color:var(--star);margin:0 2px}
 .testimonial-role{font-weight:500;color:var(--text)}
 .testimonial-signature{font-family:'Segoe Script','Lucida Handwriting',cursive;font-size:1rem;color:var(--muted)}
+.footer .fab{opacity:0;transform:translateY(8px)}
+.footer.reveal.show .fab{animation:fadeUp .5s ease both}
+.footer.reveal.show .fab:nth-child(1){animation-delay:.05s}
+.footer.reveal.show .fab:nth-child(2){animation-delay:.1s}
+.footer.reveal.show .fab:nth-child(3){animation-delay:.15s}
+.footer.reveal.show .fab:nth-child(4){animation-delay:.2s}
+.hero-overlay h1{opacity:0;transform:translateY(8px)}
+.hero-overlay.reveal.show h1{animation:titleIn .6s ease both}
+.price-card .card-title{opacity:0;transform:translateY(6px)}
+#precios.reveal.show .price-card .card-title{animation:titleIn .45s ease both}
+.casos-grid .card-title{opacity:0;transform:translateY(6px)}
+#casos.reveal.show .casos-grid .card-title{animation:titleIn .45s ease both}
+.price-card.featured::after{content:"";position:absolute;inset:0;border-radius:16px;background:linear-gradient(120deg,rgba(255,255,255,.0) 20%,rgba(255,255,255,.35) 40%,rgba(255,255,255,.0) 60%);transform:translateX(-120%);opacity:0;pointer-events:none}
+.price-card.featured:hover::after{animation:sheenSlide .8s ease}
+@keyframes sheenSlide{0%{opacity:0;transform:translateX(-120%)}20%{opacity:.3}100%{opacity:0;transform:translateX(120%)}}
