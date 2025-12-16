@@ -119,3 +119,78 @@ section{padding:64px 0}
 .price-card.featured::after{content:"";position:absolute;inset:0;border-radius:16px;background:linear-gradient(120deg,rgba(255,255,255,.0) 20%,rgba(255,255,255,.35) 40%,rgba(255,255,255,.0) 60%);transform:translateX(-120%);opacity:0;pointer-events:none}
 .price-card.featured:hover::after{animation:sheenSlide .8s ease}
 @keyframes sheenSlide{0%{opacity:0;transform:translateX(-120%)}20%{opacity:.3}100%{opacity:0;transform:translateX(120%)}}
+
+/* Benefit List Styles */
+.benefit-item {
+  /* Removed card styles as requested */
+}
+.benefit-number {
+  min-width: 40px;
+  line-height: 1;
+}
+.benefit-icon {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Step Card Styles */
+.step-number {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #9aa0a6;
+  line-height: 1;
+}
+.step-divider {
+  height: 4px;
+  width: 100%;
+  background-color: var(--brand);
+  border-radius: 2px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.step-card {
+  height: 100%;
+  padding: 16px;
+  transition: transform 0.3s ease;
+}
+.step-card:hover .step-divider {
+  transform: scaleX(1.05);
+}
+.step-card h3 {
+  font-size: 1.5rem;
+  color: var(--text);
+}
+.step-card p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Advantages Section */
+.advantage-wrapper {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  padding: 48px;
+}
+.advantage-card {
+  background-color: #d2e3fc; /* Light blue similar to image */
+  border-radius: 8px;
+  padding: 32px 24px;
+  height: 100%;
+  border: none;
+}
+.advantage-icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--brand);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}

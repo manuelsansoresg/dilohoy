@@ -71,54 +71,103 @@
     </div>
   </section>
 
-  <section id="problema" class="reveal">
+  <section id="problema">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="section-title mb-3">El Problema</h2>
-          <p class="lead">Miles de negocios pierden ventas cada día por no aparecer en mapas y por no tener reseñas visibles. Sin reputación digital clara, los clientes eligen a la competencia.</p>
+        <div class="col-12 text-center">
+          <h2 class="section-title mb-3">¿Por Qué Tu Competencia Tiene Más Estrellas Que Tú?</h2>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="solucion" class="reveal">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title mb-4">La Solución</h2>
+      <div class="row mt-4">
+        <div class="col-12 col-md-6">
+          <h2 class="text-muted">El Problema Invisible</h2>
+          <p>
+            Los clientes insatisfechos siempre escriben reseñas negativas. Los clientes felices simplemente se van y olvidan dejarte 5 estrellas.  <br><br>
+            Cada día que pasa, pierdes ventas y reputación frente a tu competencia.
+            <br><br>
+            Tu negocio merece reflejar la calidad real de tu servicio. Las primeras impresiones en Google Maps pueden significar la diferencia entre ganar o perder un cliente nuevo.
+          </p>
         </div>
-        <div class="col-12">
-          <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 flow-wrap">
-            <div class="flow-step">
-              <i class="fas fa-user"></i>
-              <span class="mt-2 text-center">Cliente</span>
+        <div class="col-12 col-md-6">
+          <div class="row text-center h-100 align-items-center g-4">
+            <div class="col-6">
+              <div class="stat-item p-3">
+                <div class="display-3 fw-bold text-muted mb-2">87%</div>
+                <h5 class="fw-bold text-secondary mb-2">Clientes buscan en Maps</h5>
+                <p class="small text-muted mb-0">Antes de visitar un negocio local</p>
+              </div>
             </div>
-            <i class="fas fa-long-arrow-alt-right text-muted"></i>
-            <div class="flow-step">
-              <i class="fas fa-map-marker-alt"></i>
-              <span class="mt-2 text-center">Busca en mapa</span>
-            </div>
-            <i class="fas fa-long-arrow-alt-right text-muted"></i>
-            <div class="flow-step">
-              <i class="fas fa-store"></i>
-              <span class="mt-2 text-center">Encuentra negocio</span>
-            </div>
-            <i class="fas fa-long-arrow-alt-right text-muted"></i>
-            <div class="flow-step">
-              <i class="fas fa-star-half-alt"></i>
-              <span class="mt-2 text-center">Deja reseña</span>
-            </div>
-            <i class="fas fa-long-arrow-alt-right text-muted"></i>
-            <div class="flow-step">
-              <i class="fas fa-chart-line"></i>
-              <span class="mt-2 text-center">Más ventas</span>
+            <div class="col-6">
+              <div class="stat-item p-3">
+                <div class="display-3 fw-bold text-muted mb-2">4.5<i class="fas fa-star text-secondary ms-2" style="font-size: 0.6em; vertical-align: middle;"></i></div>
+                <h5 class="fw-bold text-secondary mb-2">Calificación mínima</h5>
+                <p class="small text-muted mb-0">Para atraer nuevos clientes</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <section id="reputacion">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+          <h2 class="section-title mb-5 text-center">Tu reputación vende más que cualquier anuncio pagado</h2>
+          
+          <div class="benefit-list mt-4">
+            
+            <div class="benefit-item d-flex align-items-center mb-4" data-aos="fade-up">
+              <div class="benefit-number display-6 fw-bold text-primary me-3">1.</div>
+              <div class="benefit-icon me-3">
+                <i class="fas fa-money-bill-wave fa-2x text-danger"></i>
+              </div>
+              <div class="benefit-text">
+                <p class="mb-0 lead">Olvídate de quemar presupuesto en campañas costosas que no garantizan resultados.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item d-flex align-items-center mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="benefit-number display-6 fw-bold text-primary me-3">2.</div>
+              <div class="benefit-icon me-3">
+                <i class="fas fa-map-marked-alt fa-2x text-warning"></i>
+              </div>
+              <div class="benefit-text">
+                <p class="mb-0 lead">Un perfil lleno de estrellas en Google funciona como un imán permanente que te posiciona primero sin pagar por cada clic.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item d-flex align-items-center mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="benefit-number display-6 fw-bold text-primary me-3">3.</div>
+              <div class="benefit-icon me-3">
+                <i class="fas fa-users fa-2x text-success"></i>
+              </div>
+              <div class="benefit-text">
+                <p class="mb-0 lead">Atrae clientes nuevos que ya vienen listos para comprar, convencidos por la experiencia real de otros, no por un banner publicitario.</p>
+              </div>
+            </div>
+
+            <div class="benefit-item d-flex align-items-center mb-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="benefit-number display-6 fw-bold text-primary me-3">4.</div>
+              <div class="benefit-icon me-3">
+                <i class="fas fa-robot fa-2x text-info"></i>
+              </div>
+              <div class="benefit-text">
+                <p class="mb-0 lead">Es la forma más inteligente de crecer: marketing automático, gratuito y basado en pura confianza.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="/assets/images/reputacion.jpg" class="img-fluid rounded-5 " alt="Reputación">
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
 
   <section id="parallax" class="parallax reveal">
     <div class="overlay">
@@ -127,6 +176,152 @@
           <div class="col-lg-8 text-center text-white">
             <h2 class="section-title mb-3 text-white">Visibilidad que impulsa decisiones</h2>
             <p class="lead">Una experiencia fluida y moderna que conecta a las personas con los mejores negocios cerca de ellos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="py-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 col-lg-10">
+          <h2 class="display-5 fw-bold mb-3 text-dark">El Filtro Inteligente de DiloHoy</h2>
+          <p class="lead text-muted">
+            "Nuestra innovadora tecnología de "Smart Routing" protege tu reputación mientras multiplica tus reseñas positivas. Un sistema simple que funciona en tres pasos automáticos. Probado y aceptado en 4 países en Latinoamérica.
+          </p>
+        </div>
+      </div>
+      <div class="row g-5">
+        <!-- Step 1 -->
+        <div class="col-md-4">
+          <div class="step-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="step-number">01</div>
+            <div class="step-divider"></div>
+            <h3 class="fw-bold mb-3">Invitación Instantánea</h3>
+            <p class="text-muted">
+              Tu empleado envía un enlace personalizado por WhatsApp en solo 10 segundos. Sin apps, sin complicaciones. El cliente recibe un mensaje amigable para calificar su experiencia.
+            </p>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="col-md-4">
+          <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="step-number">02</div>
+            <div class="step-divider"></div>
+            <h3 class="fw-bold mb-3">Calificación Simple</h3>
+            <p class="text-muted">
+              El cliente da clic en el enlace (recibido por WhatsApp o SMS) y accede al instante a nuestro <strong>Menú de Estrellas Inteligente</strong>, en segundos.
+            </p>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="col-md-4">
+          <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="step-number">03</div>
+            <div class="step-divider"></div>
+            <h3 class="fw-bold mb-3">Magia Inteligente</h3>
+            <p class="text-muted">
+              Si da 5 estrellas ⭐, lo dirigimos automáticamente a Google Maps para publicar su reseña. Si da 4-1 estrellas, lo enviamos a un buzón privado donde puedes resolver el problema discretamente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="protege-reputacion" class="bg-light py-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="display-5 fw-bold text-dark">Protege Tu Reputación Pública</h2>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <img src="/assets/images/clientes satisfechos.jpg" class="img-fluid rounded-4 shadow-sm" alt="Clientes Satisfechos">
+        </div>
+        <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
+          <h3 class="h4 fw-bold mb-3 text-primary">El Poder del Filtro</h3>
+          <p class="lead mb-4 text-muted" style="font-size: 1.1rem;">
+            Con DiloHoy, tus clientes satisfechos publican reseñas de 5 estrellas con un solo clic. El resultado: tu calificación sube constantemente y atraes más clientes cada semana.
+          </p>
+          <p class="text-muted">
+            Al mismo tiempo, las críticas negativas se reducen en un 99% en Google Maps. En su lugar, recibes feedback privado que te permite resolver problemas antes de que dañen tu reputación. Convierte quejas en oportunidades de mejora.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="caracteristicas" class="py-5 text-white" style="background-color: #4285F4;">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <h2 class="display-5 fw-bold">Características Que Marcan La Diferencia</h2>
+        </div>
+      </div>
+      <div class="row g-4 text-start">
+        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <h3 class="h4 fw-bold mb-3">Costo Cero por Mensaje</h3>
+          <p class="lead text-white" style="font-size: 1.1rem; opacity: 0.9;">
+            Usa el WhatsApp del empleado o del negocio. No pagues por SMS costosos ni servicios de mensajería. Ahorra miles de pesos al mes mientras llegas a más clientes.
+          </p>
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="h4 fw-bold mb-3">Productividad de Empleados</h3>
+          <p class="lead text-white" style="font-size: 1.1rem; opacity: 0.9;">
+            Mide quién consigue más reseñas y premia a tu mejor mesero, recepcionista o mecánico. Convierte la atención al cliente en un juego motivador con rankings en tiempo real.
+          </p>
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="h4 fw-bold mb-3">Sin Descargas</h3>
+          <p class="lead text-white" style="font-size: 1.1rem; opacity: 0.9;">
+            Tus clientes no necesitan instalar nada. Es un enlace directo que funciona en cualquier teléfono. La experiencia es instantánea y sin fricciones desde el primer momento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ventajas" class="py-5" style="background-color: #f0f2f5;">
+    <div class="container">
+      <div class="advantage-wrapper">
+        <h2 class="h3 fw-bold mb-5" style="color: #454545;">Más Ventajas Para Tu Negocio</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="advantage-card">
+              <div class="advantage-icon">
+                <i class="fas fa-tachometer-alt"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: #5f6368;">Panel de Control</h3>
+              <p class="small text-muted mb-0" style="line-height: 1.6;">
+                Monitorea todas las reseñas desde un solo lugar. Ve estadísticas en tiempo real y analiza tendencias para mejorar tu servicio continuamente.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="advantage-card">
+              <div class="advantage-icon">
+                <i class="far fa-clock"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: #5f6368;">Automatización Total</h3>
+              <p class="small text-muted mb-0" style="line-height: 1.6;">
+                Configura recordatorios automáticos y seguimientos sin mover un dedo. El sistema trabaja para ti 24/7 generando reseñas mientras tú te enfocas en tu negocio.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="advantage-card">
+              <div class="advantage-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-3" style="color: #5f6368;">Privacidad Garantizada</h3>
+              <p class="small text-muted mb-4" style="line-height: 1.6;">
+                Cumplimos con todas las normativas de protección de datos. La información de tus clientes está segura y encriptada según estándares internacionales.
+              </p>
+              <a href="#" class="btn btn-primary btn-sm px-4 fw-bold">Haz clic aquí</a>
+            </div>
           </div>
         </div>
       </div>
