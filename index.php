@@ -10,21 +10,55 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
+  <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.png" alt="Dilohoy Logo" height="50">
+      </a>
+      <div class="d-flex">
+        <a href="#" class="btn btn-outline-primary fw-medium">Regístrate / Panel Clientes</a>
+      </div>
+    </div>
+  </header>
+<!-- carrusell -->
   <section id="hero" class="hero position-relative">
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" alt="Clientes felices en negocio" src="https://picsum.photos/id/1011/1600/900">
+          <img class="d-block w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1.jpg">
+          <div class="hero-overlay d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 text-start">
+                  <h1 class="display-4 fw-bold">Multiplica tus Reseñas de 5 Estrellas en Google Maps en 30 Segundos</h1>
+                  <p class="lead mt-3">Transforma a tus empleados en tu mejor equipo de marketing. Fácil y Rápido, usando solo Mensajes SMS / WhatsApp. DiloHoy te ayuda a conseguir más reseñas positivas automáticamente mientras proteges tu reputación en línea.</p>
+                  <div class="mt-4">
+                    <a href="#" class="btn btn-primary btn-lg me-2">Ver Planes y Precios</a>
+                    <a href="#" class="btn btn-outline-primary btn-lg">Contratar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" alt="Restaurante con reseñas" src="https://picsum.photos/id/1080/1600/900">
+          <img class="d-block w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/2.jpg">
+          <div class="hero-overlay d-flex align-items-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 text-start">
+                  <h1 class="display-4 fw-bold">Multiplica tus Reseñas de 5 Estrellas en Google Maps en 30 Segundos</h1>
+                  <p class="lead mt-3">Transforma a tus empleados en tu mejor equipo de marketing. Fácil y Rápido, usando solo Mensajes SMS / WhatsApp. DiloHoy te ayuda a conseguir más reseñas positivas automáticamente mientras proteges tu reputación en línea.</p>
+                  <div class="mt-4">
+                    <a href="#" class="btn btn-primary btn-lg me-2">Ver Demo</a>
+                    <a href="#precios" class="btn btn-outline-primary btn-lg">Ver Planes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" alt="Clínica moderna" src="https://picsum.photos/id/1027/1600/900">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" alt="Mapa en smartphone" src="https://picsum.photos/id/1069/1600/900">
-        </div>
+        
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -34,14 +68,6 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Siguiente</span>
       </button>
-    </div>
-    <div class="hero-overlay d-flex flex-column justify-content-center align-items-center text-center">
-      <h1 class="display-5 fw-bold">Más calificaciones. Más clientes. Más ventas.</h1>
-      <p class="lead mt-2">Negocios en el mapa con reseñas reales, visibles en tu ciudad.</p>
-      <div class="mt-3">
-        <a href="#" class="btn btn-primary btn-lg me-2">Registrarme</a>
-        <a href="#" class="btn btn-outline-primary btn-lg">Inicio de Sesión</a>
-      </div>
     </div>
   </section>
 
