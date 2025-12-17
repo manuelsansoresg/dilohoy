@@ -330,68 +330,16 @@
 
   <section id="casos" class="reveal">
     <div class="container">
-      <div class="row mb-4">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Casos de Uso</h2>
-          <p class="text-muted">Desde locales pequeños hasta grandes servicios, todos se benefician.</p>
+      <div class="row mb-4 align-items-center">
+        <div class="col-12 col-md-6 text-center">
+          <img src="/assets/images/ejemplo youtube.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-12 col-md-6 text-center ">
+          <h2 class="h1">Lo que opinan <br> Nuestros Clientes </h2>
+          
         </div>
       </div>
-      <div class="row g-4 casos-grid">
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/1082/1200/800" class="card-img-top" alt="Restaurantes">
-            <div class="card-body">
-              <h5 class="card-title">Restaurantes</h5>
-              <p class="card-text">Aumenta reservas y pedidos mostrando reseñas verificadas.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/1025/1200/800" class="card-img-top" alt="Clínicas">
-            <div class="card-body">
-              <h5 class="card-title">Clínicas</h5>
-              <p class="card-text">Genera confianza con historias reales de pacientes.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/1059/1200/800" class="card-img-top" alt="Gimnasios">
-            <div class="card-body">
-              <h5 class="card-title">Gimnasios</h5>
-              <p class="card-text">Convierte visitas en membresías al destacar resultados.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/1043/1200/800" class="card-img-top" alt="Tiendas">
-            <div class="card-body">
-              <h5 class="card-title">Tiendas</h5>
-              <p class="card-text">Impulsa ventas con reseñas que inspiran confianza.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/1018/1200/800" class="card-img-top" alt="Hoteles">
-            <div class="card-body">
-              <h5 class="card-title">Hoteles</h5>
-              <p class="card-text">Más reservas con reputación y fotos de huéspedes.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="card h-100">
-            <img src="https://picsum.photos/id/1060/1200/800" class="card-img-top" alt="Talleres">
-            <div class="card-body">
-              <h5 class="card-title">Talleres</h5>
-              <p class="card-text">Gana clientes mostrando trabajos y calificaciones.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
 
@@ -399,8 +347,8 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <h2 class="section-title">Testimonios</h2>
-          <p class="text-muted">Opiniones reales de usuarios y dueños de negocio.</p>
+          <h2 class="section-title">Negocios Que Ya Crecen Con DiloHoy</h2>
+          <p class="text-muted">Miles de empresas en toda Latinoamérica confían en nuestra plataforma para mejorar su reputación en línea y atraer más clientes cada día.</p>
         </div>
       </div>
       <div class="row g-4 mt-5 testimonials-grid">
