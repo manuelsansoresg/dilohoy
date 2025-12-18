@@ -84,6 +84,59 @@ section{padding:64px 0}
 .flow-wrap .flow-step:nth-child(5){animation-delay:.25s}
 .flow-wrap .flow-step:nth-child(7){animation-delay:.35s}
 .flow-wrap .flow-step:nth-child(9){animation-delay:.45s}
+
+/* FAQ Staggered Animation */
+.faq-card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  border: 1px solid #f0f2f5;
+  transition: all 0.3s ease;
+  height: 100%;
+  opacity: 0;
+  transform: translateY(15px);
+}
+.faq-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-color: #d2e3fc;
+}
+.faq-icon {
+  width: 48px;
+  height: 48px;
+  background-color: #e8f0fe;
+  color: #1a73e8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+#faq.reveal.show .faq-card {
+  animation: fadeUp 0.6s ease forwards;
+}
+#faq.reveal.show .col-md-6:nth-child(1) .faq-card { animation-delay: 0.1s; }
+#faq.reveal.show .col-md-6:nth-child(2) .faq-card { animation-delay: 0.2s; }
+#faq.reveal.show .col-md-6:nth-child(3) .faq-card { animation-delay: 0.3s; }
+#faq.reveal.show .col-md-6:nth-child(4) .faq-card { animation-delay: 0.4s; }
+#faq.reveal.show .col-md-6:nth-child(5) .faq-card { animation-delay: 0.5s; }
+#faq.reveal.show .col-md-6:nth-child(6) .faq-card { animation-delay: 0.6s; }
+
+/* General Text Reveal Animation */
+.text-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.reveal.show .text-reveal,
+.text-reveal.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 @keyframes zoomIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
 @keyframes fadeOnly{from{opacity:0}to{opacity:1}}
@@ -120,18 +173,58 @@ section{padding:64px 0}
 .price-card.featured:hover::after{animation:sheenSlide .8s ease}
 @keyframes sheenSlide{0%{opacity:0;transform:translateX(-120%)}20%{opacity:.3}100%{opacity:0;transform:translateX(120%)}}
 
-/* Benefit List Styles */
-.benefit-item {
-  /* Removed card styles as requested */
+/* Plan Cards */
+.plan-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  overflow: hidden;
 }
-.benefit-number {
-  min-width: 40px;
-  line-height: 1;
+
+.plan-card:hover {
+  transform: translateY(-10px) !important;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
 }
-.benefit-icon {
-  width: 60px;
-  display: flex;
-  justify-content: center;
+
+/* Ensure the middle card keeps its scale on hover or scales more */
+.plan-card.shadow-lg:hover {
+  transform: scale(1.05) translateY(-10px) !important;
+}
+
+/* Google Color Outline Buttons */
+.btn-outline-google-green {
+  color: #34A853;
+  border: 2px solid #34A853;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.btn-outline-google-green:hover {
+  background-color: #34A853;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(52, 168, 83, 0.3);
+}
+
+.btn-outline-google-red {
+  color: #EA4335;
+  border: 2px solid #EA4335;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.btn-outline-google-red:hover {
+  background-color: #EA4335;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(234, 67, 53, 0.3);
+}
+
+.btn-outline-google-blue {
+  color: #4285F4;
+  border: 2px solid #4285F4;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+.btn-outline-google-blue:hover {
+  background-color: #4285F4;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
 }
 
 /* Step Card Styles */

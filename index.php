@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
-  <link href="assets/css/main.css?v=1.1" rel="stylesheet">
+  <link href="assets/css/main.css?v=1.8" rel="stylesheet">
 </head>
 <body>
   <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -71,11 +71,11 @@
     </div>
   </section>
 
-  <section id="problema">
+  <section id="problema" class="reveal">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
-          <h2 class="section-title mb-3">¿Por Qué Tu Competencia Tiene Más Estrellas Que Tú?</h2>
+          <h2 class="section-title mb-3 text-reveal">¿Por Qué Tu Competencia Tiene Más Estrellas Que Tú?</h2>
         </div>
       </div>
       <div class="row mt-4">
@@ -110,11 +110,11 @@
     </div>
   </section>
 
-  <section id="reputacion">
+  <section id="reputacion" class="reveal">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-md-6">
-          <h2 class="section-title mb-5 text-center">Tu reputación vende más que cualquier anuncio pagado</h2>
+          <h2 class="section-title mb-5 text-center text-reveal">Tu reputación vende más que cualquier anuncio pagado</h2>
           
           <div class="benefit-list mt-4">
             
@@ -174,7 +174,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center text-white">
-            <h2 class="section-title mb-3 text-white">Visibilidad que impulsa decisiones</h2>
+            <h2 class="section-title mb-3 text-white text-reveal">Visibilidad que impulsa decisiones</h2>
             <p class="lead">Una experiencia fluida y moderna que conecta a las personas con los mejores negocios cerca de ellos.</p>
           </div>
         </div>
@@ -182,11 +182,11 @@
     </div>
   </section>
 
-  <section id="how-it-works" class="py-5">
+  <section id="how-it-works" class="py-5 reveal">
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 col-lg-10">
-          <h2 class="display-5 fw-bold mb-3 text-dark">El Filtro Inteligente de DiloHoy</h2>
+          <h2 class="display-5 fw-bold mb-3 text-dark text-reveal">El Filtro Inteligente de DiloHoy</h2>
           <p class="lead text-muted">
             "Nuestra innovadora tecnología de "Smart Routing" protege tu reputación mientras multiplica tus reseñas positivas. Un sistema simple que funciona en tres pasos automáticos. Probado y aceptado en 4 países en Latinoamérica.
           </p>
@@ -230,11 +230,11 @@
     </div>
   </section>
   
-  <section id="protege-reputacion" class="bg-light py-5">
+  <section id="protege-reputacion" class="bg-light py-5 reveal">
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 text-center">
-          <h2 class="display-5 fw-bold text-dark">Protege Tu Reputación Pública</h2>
+          <h2 class="display-5 fw-bold text-dark text-reveal">Protege Tu Reputación Pública</h2>
         </div>
       </div>
       <div class="row align-items-center">
@@ -254,11 +254,11 @@
     </div>
   </section>
 
-  <section id="caracteristicas" class="py-5 text-white" style="background-color: #4285F4;">
+  <section id="caracteristicas" class="py-5 text-white reveal" style="background-color: #4285F4;">
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 text-center">
-          <h2 class="display-5 fw-bold">Características Que Marcan La Diferencia</h2>
+          <h2 class="display-5 fw-bold text-reveal">Características Que Marcan La Diferencia</h2>
         </div>
       </div>
       <div class="row g-4 text-start">
@@ -284,10 +284,10 @@
     </div>
   </section>
 
-  <section id="ventajas" class="py-5" style="background-color: #f0f2f5;">
+  <section id="ventajas" class="py-5 reveal" style="background-color: #f0f2f5;">
     <div class="container">
       <div class="advantage-wrapper">
-        <h2 class="h3 fw-bold mb-5" style="color: #454545;">Más Ventajas Para Tu Negocio</h2>
+        <h2 class="h3 fw-bold mb-5 text-reveal" style="color: #454545;">Más Ventajas Para Tu Negocio</h2>
         <div class="row g-4">
           <div class="col-md-4">
             <div class="advantage-card">
@@ -335,7 +335,7 @@
           <img src="/assets/images/ejemplo youtube.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-12 col-md-6 text-center ">
-          <h2 class="h1">Lo que opinan <br> Nuestros Clientes </h2>
+          <h2 class="text-muted display-2 text-reveal">Lo que opinan <br> Nuestros Clientes </h2>
           
         </div>
       </div>
@@ -347,8 +347,8 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <h2 class="section-title">Negocios Que Ya Crecen Con DiloHoy</h2>
-          <p class="text-muted">Miles de empresas en toda Latinoamérica confían en nuestra plataforma para mejorar su reputación en línea y atraer más clientes cada día.</p>
+          <h2 class="section-title text-reveal">Negocios Que Ya Crecen Con DiloHoy</h2>
+          <p class="text-muted mt-3">Miles de empresas en toda Latinoamérica confían en nuestra plataforma para mejorar su reputación en línea y atraer más clientes cada día.</p>
         </div>
       </div>
       <div class="row g-4 mt-5 testimonials-grid">
@@ -400,70 +400,100 @@
 
   <section id="precios" class="reveal">
     <div class="container">
-      <div class="row mb-4">
+      <div class="row mb-5">
         <div class="col-12 text-center">
-          <h2 class="section-title">Precios</h2>
-          <p class="text-muted">Planes diseñados para crecer contigo.</p>
+          <div class="d-inline-block bg-primary text-white px-5 py-2 rounded-4 mb-3" style="background-color: #4285F4 !important;">
+            <h2 class="m-0 fw-bold text-uppercase">Nuestros Planes</h2>
+          </div>
+          <p class="h2 mt-2 fw-normal">¿Que licencia necesita?</p>
         </div>
       </div>
-      <div class="row g-4 price-grid">
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card price-card h-100">
-            <div class="card-body text-center">
-              <h5 class="card-title">Básico</h5>
-              <p class="display-6 fw-bold">$0</p>
-              <ul class="list-unstyled text-start">
-                <li><i class="fas fa-check text-success me-2"></i>Perfil de negocio</li>
-                <li><i class="fas fa-check text-success me-2"></i>Hasta 50 reseñas</li>
-                <li><i class="fas fa-check text-success me-2"></i>Soporte estándar</li>
+      
+      <div class="row g-4 justify-content-center align-items-center">
+        <!-- BÁSICA -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 plan-card border-2" style="border-color: #34A853; border-radius: 20px;">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="fw-bold mb-4 text-dark">BÁSICA</h3>
+              <div class="price-section mb-4 d-flex align-items-center">
+                <span class="display-4 fw-bold text-dark">$1,900</span>
+                <div class="d-inline-block text-start lh-1 ms-2">
+                  <small class="d-block fw-bold text-dark">Anual</small>
+                  <small class="d-block text-muted">MX</small>
+                </div>
+              </div>
+              <ul class="list-unstyled flex-grow-1 mb-4">
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Canal de Envío: SMS</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Canal de Captura: Manual</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Hasta 50 invitaciones al mes</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Filtro de Reseñas Negativas Básico (Sin Reporte)</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Soporte: Email (24h)</li>
               </ul>
-              <a href="#" class="btn btn-buy btn-primary w-100">Comprar</a>
+              <div class="mt-auto">
+                <a href="#" class="btn btn-outline-google-green rounded-pill w-100 fw-bold py-2">Necesito esta Licencia</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card price-card h-100 featured">
-            <div class="price-badge">Popular</div>
-            <div class="card-body text-center">
-              <h5 class="card-title">Pro</h5>
-              <p class="display-6 fw-bold">$19</p>
-              <ul class="list-unstyled text-start">
-                <li><i class="fas fa-check text-success me-2"></i>Mapas avanzados</li>
-                <li><i class="fas fa-check text-success me-2"></i>Insignias de reputación</li>
-                <li><i class="fas fa-check text-success me-2"></i>Soporte prioritario</li>
+
+        <!-- PRO -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 plan-card border-3 position-relative shadow-lg" style="border-color: #EA4335; border-radius: 20px; transform: scale(1.02); z-index: 10;">
+            <div class="position-absolute top-0 end-0 text-white px-3 py-1 fw-bold" style="background-color: #EA4335; border-top-right-radius: 15px; border-bottom-left-radius: 15px;">Más Vendido</div>
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="fw-bold mb-0 text-dark">PRO</h3>
+              <div class="price-section mb-2 mt-3">
+                <div class="text-decoration-line-through text-muted small fw-bold">Precio Real: $5,000 MX</div>
+                <div class="d-flex align-items-center">
+                  <span class="display-3 fw-bold text-dark">$2,500</span>
+                  <div class="d-inline-block text-start lh-1 ms-2">
+                    <small class="d-block fw-bold text-dark">Anual</small>
+                    <small class="d-block text-muted">MX</small>
+                  </div>
+                </div>
+                <div class="small fw-bold mt-1" style="color: #EA4335;">Descuento por Incentivo PyME</div>
+              </div>
+              <ul class="list-unstyled flex-grow-1 mb-4 mt-3">
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Canal de Envío: SMS y WhatsApp</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Captura Dual: App + QR</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Hasta 100 invitaciones al mes</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Estadística de productividad (Hasta 4 Empleados)</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Filtro de Reseñas Negativas Avanzado (Con Reporte Pro.)</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Soporte: WhatsApp Directo</li>
               </ul>
-              <a href="#" class="btn btn-buy btn-primary w-100">Comprar</a>
+              <div class="mt-auto">
+                <a href="#" class="btn btn-outline-google-red rounded-pill w-100 fw-bold py-2">Necesito esta Licencia</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card price-card h-100">
-            <div class="card-body text-center">
-              <h5 class="card-title">Business</h5>
-              <p class="display-6 fw-bold">$49</p>
-              <ul class="list-unstyled text-start">
-                <li><i class="fas fa-check text-success me-2"></i>Reseñas ilimitadas</li>
-                <li><i class="fas fa-check text-success me-2"></i>Análisis y reportes</li>
-                <li><i class="fas fa-check text-success me-2"></i>Gestión multi-sede</li>
+
+        <!-- CORPORATIVA -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100 plan-card border-2" style="border-color: #4285F4; border-radius: 20px;">
+            <div class="card-body p-4 d-flex flex-column">
+              <h3 class="fw-bold mb-4 text-dark">CORPORATIVA</h3>
+              <div class="price-section mb-4 d-flex align-items-center">
+                <span class="display-4 fw-bold text-dark">$7,900</span>
+                <div class="d-inline-block text-start lh-1 ms-2">
+                  <small class="d-block fw-bold text-dark">Anual</small>
+                  <small class="d-block text-muted">MX</small>
+                </div>
+              </div>
+              <ul class="list-unstyled flex-grow-1 mb-4">
+                <li class="mb-3 text-center fw-bold">Todo lo del Plan Pro</li>
+                <li class="text-center text-primary mb-3"><i class="fas fa-plus"></i></li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Hasta 400 invitaciones totales</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Uso para 1 Matriz y 3 sucursales</li>
+                <li class="mb-3 d-flex align-items-start"><i class="fas fa-circle text-muted me-2 mt-2" style="font-size: 8px;"></i>Filtro de Reseñas Negativas Avanzado (Con Reporte Pro.) para Matriz y 3 sucursales</li>
               </ul>
-              <a href="#" class="btn btn-buy btn-primary w-100">Comprar</a>
+              <div class="mt-auto">
+                <a href="#" class="btn btn-outline-google-blue rounded-pill w-100 fw-bold py-2">Necesito esta Licencia</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="card price-card h-100">
-            <div class="card-body text-center">
-              <h5 class="card-title">Enterprise</h5>
-              <p class="display-6 fw-bold">$99</p>
-              <ul class="list-unstyled text-start">
-                <li><i class="fas fa-check text-success me-2"></i>API y SSO</li>
-                <li><i class="fas fa-check text-success me-2"></i>Integraciones personalizadas</li>
-                <li><i class="fas fa-check text-success me-2"></i>Cuenta dedicada</li>
-              </ul>
-              <a href="#" class="btn btn-buy btn-primary w-100">Comprar</a>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
@@ -472,71 +502,95 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
-          <h2 class="section-title">FAQ</h2>
-          <p class="text-muted">Respuestas rápidas a tus preguntas.</p>
+          <h2 class="section-title text-reveal">Preguntas Frecuentes</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-lg-10 mx-auto">
-          <div class="accordion" id="faqAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="q1">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
-                  ¿Cómo aparecen los negocios en el mapa?
-                </button>
-              </h2>
-              <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                  Los negocios se registran y son validados. Luego se muestran con información pública y reseñas recientes.
-                </div>
+      <div class="row g-4">
+        <!-- Q1 -->
+        <div class="col-md-6">
+          <div class="faq-card">
+            <div class="d-flex align-items-start">
+              <div class="faq-icon me-3">
+                <i class="far fa-question-circle"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-2">¿Necesito guardar el contacto del cliente?</h5>
+                <p class="text-muted mb-0">No. El enlace es directo y funciona sin necesidad de agregar números a tu agenda. Simplemente compartes el link por SMS o WhatsApp y listo.</p>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="q2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
-                  ¿Las reseñas son moderadas?
-                </button>
-              </h2>
-              <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                  Sí. Aplicamos políticas anti-spam y verificaciones para asegurar reseñas útiles y auténticas.
-                </div>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="col-md-6">
+          <div class="faq-card">
+            <div class="d-flex align-items-start">
+              <div class="faq-icon me-3">
+                <i class="far fa-clock"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-2">¿Cuánto tiempo toma configurar DiloHoy?</h5>
+                <p class="text-muted mb-0">Menos de 5 minutos. Creas tu cuenta, personalizas tu mensaje y empiezas a enviar invitaciones de inmediato. No requiere conocimientos técnicos.</p>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="q3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
-                  ¿Qué tan rápido impacta en las ventas?
-                </button>
-              </h2>
-              <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                  En promedio, negocios con más reseñas visibles aumentan consultas y conversiones en pocas semanas.
-                </div>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="col-md-6">
+          <div class="faq-card">
+            <div class="d-flex align-items-start">
+              <div class="faq-icon me-3">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-2">¿Mis empleados gastan sus datos móviles?</h5>
+                <p class="text-muted mb-0">No. WhatsApp es gratis en la mayoría de planes telefónicos en Latinoamérica. Además, el consumo es mínimo, equivalente a enviar un mensaje de texto.</p>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="q4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4" aria-expanded="false" aria-controls="a4">
-                  ¿Puedo integrar mis sistemas actuales?
-                </button>
-              </h2>
-              <div id="a4" class="accordion-collapse collapse" aria-labelledby="q4" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                  Sí, ofrecemos integraciones y exportaciones compatibles con herramientas populares.
-                </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="col-md-6">
+          <div class="faq-card">
+            <div class="d-flex align-items-start">
+              <div class="faq-icon me-3">
+                <i class="fas fa-globe-americas"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-2">¿Funciona en todos los países de Latinoamérica?</h5>
+                <p class="text-muted mb-0">Sí. DiloHoy funciona en México, Colombia, Argentina, Chile, Perú y todos los países donde Google Maps y WhatsApp estén disponibles.</p>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="q5">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5" aria-expanded="false" aria-controls="a5">
-                  ¿Cómo gestiono reseñas negativas?
-                </button>
-              </h2>
-              <div id="a5" class="accordion-collapse collapse" aria-labelledby="q5" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                  Brindamos herramientas para responder y resolver casos, mejorando la percepción pública.
-                </div>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="col-md-6">
+          <div class="faq-card">
+            <div class="d-flex align-items-start">
+              <div class="faq-icon me-3">
+                <i class="fas fa-gavel"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-2">¿Es legal filtrar las reseñas negativas?</h5>
+                <p class="text-muted mb-0">Completamente legal. No eliminamos ni censuramos reseñas. Solo dirigimos a los clientes insatisfechos a un canal privado donde pueden expresarse y tú puedes resolver el problema.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="col-md-6">
+          <div class="faq-card">
+            <div class="d-flex align-items-start">
+              <div class="faq-icon me-3">
+                <i class="far fa-times-circle"></i>
+              </div>
+              <div>
+                <h5 class="fw-bold mb-2">¿Puedo cancelar en cualquier momento?</h5>
+                <p class="text-muted mb-0">Por supuesto. No hay contratos anuales ni penalizaciones. Cancelas con un clic y solo pagas por el tiempo que usaste el servicio.</p>
               </div>
             </div>
           </div>
