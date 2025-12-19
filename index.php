@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
-  <link href="assets/css/main.css?v=1.8" rel="stylesheet">
+  <link href="assets/css/main.css?v=2.0" rel="stylesheet">
 </head>
 <body>
   <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -42,16 +42,15 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/2.jpg">
+          <img class="d-block w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/banner%201.jpg">
           <div class="hero-overlay d-flex align-items-center">
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 text-start">
-                  <h1 class="display-4 fw-bold">Multiplica tus Reseñas de 5 Estrellas en Google Maps en 30 Segundos</h1>
-                  <p class="lead mt-3">Transforma a tus empleados en tu mejor equipo de marketing. Fácil y Rápido, usando solo Mensajes SMS / WhatsApp. DiloHoy te ayuda a conseguir más reseñas positivas automáticamente mientras proteges tu reputación en línea.</p>
+                  <h1 class="display-4 fw-bold">Fácil de Usar y con RESULTADOS en Segundos</h1>
+                  <p class="lead mt-3"></p>
                   <div class="mt-4">
-                    <a href="#" class="btn btn-primary btn-lg me-2">Ver Demo</a>
-                    <a href="#precios" class="btn btn-outline-primary btn-lg">Ver Planes</a>
+                    
                   </div>
                 </div>
               </div>
