@@ -190,6 +190,59 @@ section{padding:64px 0}
   transform: scale(1.05) translateY(-10px) !important;
 }
 
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero .display-4 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+  
+  .hero .lead {
+    font-size: 1rem;
+    margin-top: 0.8rem !important;
+  }
+
+  .hero-overlay {
+    background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 100%);
+    text-align: center;
+    padding: 0 24px;
+  }
+
+  /* Force centered text on mobile even if Bootstrap utility is present */
+  .hero-overlay .text-start {
+    text-align: center !important;
+  }
+
+  /* Stack buttons */
+  .hero-overlay .btn {
+    display: block;
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Footer */
+  .footer .col-12 {
+    text-align: center;
+  }
+
+  .footer .d-flex {
+    justify-content: center;
+  }
+  
+  .footer h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: var(--brand);
+  }
+
+  .footer ul li {
+    margin-bottom: 0.5rem;
+  }
+}
+
 /* Google Color Outline Buttons */
 .btn-outline-google-green {
   color: #34A853;
