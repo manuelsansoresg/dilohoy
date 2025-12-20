@@ -193,25 +193,47 @@ section{padding:64px 0}
 /* Mobile Responsive Adjustments */
 @media (max-width: 768px) {
   /* Hero Section */
+  .hero {
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .hero .carousel-item img {
+    height: 100vh;
+  }
+
   .hero .display-4 {
-    font-size: 2.2rem;
-    line-height: 1.2;
+    font-size: 1.75rem; /* Reduced from 2.2rem */
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
   }
   
   .hero .lead {
-    font-size: 1rem;
-    margin-top: 0.8rem !important;
+    font-size: 0.95rem; /* Slightly smaller for better fit */
+    margin-top: 0.5rem !important;
+    line-height: 1.4;
   }
 
   .hero-overlay {
-    background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.7) 100%); /* Slightly darker for better contrast */
     text-align: center;
-    padding: 0 24px;
+    padding: 0 16px; /* Reduced padding to give more width to text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-overlay .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /* Force centered text on mobile even if Bootstrap utility is present */
   .hero-overlay .text-start {
     text-align: center !important;
+    width: 100%;
   }
 
   /* Stack buttons */
@@ -220,6 +242,7 @@ section{padding:64px 0}
     width: 100%;
     margin-right: 0 !important;
     margin-bottom: 0.75rem;
+    padding: 0.8rem; /* Make buttons slightly more compact vertically */
   }
 
   /* Footer */
