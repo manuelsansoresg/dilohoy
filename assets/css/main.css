@@ -209,8 +209,8 @@ section{padding:64px 0}
   }
   
   .hero .lead {
-    font-size: 0.95rem; /* Slightly smaller for better fit */
-    margin-top: 0.5rem !important;
+    font-size: 1.1rem; /* Increased size */
+    margin-top: 1.5rem !important; /* Increased spacing */
     line-height: 1.4;
   }
 
