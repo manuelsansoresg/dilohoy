@@ -279,6 +279,10 @@ section{padding:64px 0}
     min-height: 300px; /* Adjust height for mobile */
   }
 
+  .parallax-bg {
+    background-image: url('/assets/images/parallax%20movil.jpg');
+  }
+
   .hero-overlay h1, .hero-overlay p {
     text-shadow: 0 2px 8px rgba(0,0,0,0.9); /* Stronger shadow for mobile */
   }
