@@ -276,15 +276,20 @@ section{padding:64px 0}
 
   /* Parallax Mobile Fix */
   .parallax-section {
-    min-height: 300px; /* Adjust height for mobile */
+    min-height: 250px; /* Reduced height to help image fit better width-wise */
+  }
+
+  .parallax-section .overlay {
+    padding: 40px 0; /* Reduced padding for mobile */
   }
 
   .parallax-bg {
     background-image: url('/assets/images/parallax%20movil.jpg');
     background-size: cover;
     background-position: center;
-    height: 150%; /* Reduce height slightly for mobile to minimize zoom */
-    top: -25%;
+    background-repeat: no-repeat;
+    height: 115%; /* Minimized extra height to reduce zooming/cropping */
+    top: -7.5%;
   }
 
   .hero-overlay h1, .hero-overlay p {
