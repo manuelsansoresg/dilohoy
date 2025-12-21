@@ -25,7 +25,8 @@
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1.jpg">
+          <img class="d-none d-block w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1.jpg">
+          <img class="d-block d-md-none w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1movil.jpg">
           <div class="hero-overlay d-flex align-items-center">
             <div class="container">
               <div class="row">
@@ -43,6 +44,7 @@
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/banner%201.jpg">
+          <img class="d-block d-md-none w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/banner%201movil.jpg">
           <div class="hero-overlay d-flex align-items-center">
             <div class="container">
               <div class="row">
