@@ -8,26 +8,38 @@ document.addEventListener('DOMContentLoaded',function(){
   var hero=document.querySelector('#hero .hero-overlay');
   if(hero){hero.classList.add('reveal');obs.observe(hero)}
   (function(){
-    var coarse=window.matchMedia&&window.matchMedia('(pointer: coarse)').matches;
-    var sec=document.querySelector('.parallax');
-    if(!sec)return;
-    if(coarse){
-      var raf=null;
-      var onScroll=function(){
-        if(raf)return;
-        raf=requestAnimationFrame(function(){
-          raf=null;
-          var r=sec.getBoundingClientRect();
-          var vh=window.innerHeight;
-          if(r.bottom>=0&&r.top<=vh){
-            var y=(vh-r.top)*0.2;
-            sec.style.backgroundPosition='center '+(-y)+'px';
-          }
-        });
-      };
-      window.addEventListener('scroll',onScroll,{passive:true});
-      onScroll();
-    }
+    var section = document.querySelector('.parallax-section');
+    var bg = document.querySelector('.parallax-bg');
+    if (!section || !bg) return;
+
+    var raf = null;
+    var onScroll = function(){
+      if (raf) return;
+      raf = requestAnimationFrame(function(){
+        raf = null;
+        var rect = section.getBoundingClientRect();
+        var vh = window.innerHeight;
+        
+        // Calculate only if close to view to save resources
+        if (rect.bottom >= -100 && rect.top <= vh + 100) {
+          // Distance from center of viewport
+          var centerY = vh / 2;
+          var sectionCenterY = rect.top + (rect.height / 2);
+          var dist = centerY - sectionCenterY; 
+          
+          // Parallax effect: Move background based on distance from center
+          // speed = 0.25 means background moves 25% of scroll speed
+          var speed = 0.25;
+          var y = dist * speed;
+          
+          bg.style.transform = 'translate3d(0, ' + y + 'px, 0)';
+        }
+      });
+    };
+    
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onScroll, {passive: true});
+    onScroll(); // Initial call
   })();
 
   (function(){

@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
-  <link href="assets/css/main.css?v=3.4" rel="stylesheet">
+  <link href="assets/css/main.css?v=3.6" rel="stylesheet">
 </head>
 <body>
   <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -25,7 +25,7 @@
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-none d-block w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1.jpg">
+          <img class="d-none d-md-block w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1.jpg">
           <img class="d-block d-md-none w-100" alt="Clientes felices en negocio" src="/assets/images/carrusel/1movil.jpg">
           <div class="hero-overlay d-flex align-items-center">
             <div class="container">
@@ -170,7 +170,8 @@
   </section>
 
 
-  <section id="parallax" class="parallax reveal">
+  <section id="parallax" class="parallax-section reveal">
+    <div class="parallax-bg"></div>
     <div class="overlay">
       <div class="container">
         <div class="row justify-content-center">
@@ -636,6 +637,6 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=3.5"></script>
 </body>
 </html>
