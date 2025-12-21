@@ -201,31 +201,36 @@ section{padding:64px 0}
   /* Hero Section */
   .hero {
     height: auto;
-    min-height: 70vh; /* Reduced from 100vh to match image height */
+    min-height: 85vh; /* Increased back to allow text to fit comfortably */
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
   }
   
   .hero .carousel-item img {
-    height: 70vh; /* Reduced height to show more of the image width */
+    height: 85vh; /* Matched to container */
     width: 100%;
     object-fit: cover;
-    object-position: center top; /* Focus on top part (faces) */
+    object-position: center top;
   }
 
-
+  /* Parallax Mobile Fix */
+  .parallax {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
 
   .hero .display-4 {
-    font-size: 1.6rem; /* Slightly smaller to save space */
-    line-height: 1.2;
-    margin-bottom: 0.5rem;
+    font-size: 1.8rem; /* Slightly larger for better readability */
+    line-height: 1.3;
+    margin-bottom: 1rem;
   }
   
   .hero .lead {
-    font-size: 1.05rem; /* Balanced size */
-    margin-top: 1rem !important; /* Reduced spacing to prevent overflow */
-    line-height: 1.4;
+    font-size: 1.1rem;
+    margin-top: 1.5rem !important; /* More breathing room */
+    line-height: 1.5;
   }
 
   .hero-overlay {
