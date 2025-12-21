@@ -208,29 +208,32 @@ section{padding:64px 0}
   }
   
   .hero .carousel-item img {
-    height: 70vh; /* Reduced height to show more of the image width */
+    height: 100vh; /* Full viewport height */
     width: 100%;
-    object-fit: contain; /* Changed from cover to contain to show full image */
-    object-position: center;
-    background-color: #000; /* Fill empty space with black if aspect ratio differs */
+    object-fit: cover; /* Back to cover to fill space */
+    object-position: center; /* Center the image */
   }
 
   .hero .display-4 {
-    font-size: 1.5rem; /* Smaller font to prevent crowding */
-    line-height: 1.4; /* More breathing room between lines */
-    margin-bottom: 1rem;
-    padding: 0 10px; /* Prevent text touching edges */
+    font-size: 1.4rem; /* Smaller title */
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    padding: 0 5px;
   }
   
   .hero .lead {
-    font-size: 1rem;
+    font-size: 0.95rem; /* Smaller text body */
     margin-top: 0.5rem !important;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to 4 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden; /* Hide excess text if too long */
   }
 
   .hero-overlay {
-    background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 100%); /* Lighter overlay as requested */
+    background: rgba(0,0,0,0.5); /* Semi-transparent black over entire area */
     text-align: center;
     padding: 0 16px;
     display: flex;
