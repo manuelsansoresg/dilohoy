@@ -201,17 +201,17 @@ section{padding:64px 0}
   /* Hero Section */
   .hero {
     height: auto;
-    min-height: 85vh; /* Increased back to allow text to fit comfortably */
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
   }
   
   .hero .carousel-item img {
-    height: 100vh; /* Full viewport height */
+    height: auto; /* Let image aspect ratio define height - SHOWS FULL IMAGE */
+    min-height: 500px; /* Minimum height to ensure text fits */
     width: 100%;
-    object-fit: cover; /* Back to cover to fill space */
-    object-position: center; /* Center the image */
+    object-fit: cover; /* Only crops if image is shorter than 500px */
+    object-position: top center; /* Prioritize faces at the top */
   }
 
   .hero .display-4 {
