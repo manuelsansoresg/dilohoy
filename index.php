@@ -176,8 +176,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center text-white">
-            <h2 class="section-title mb-3 text-white text-reveal">Visibilidad que impulsa decisiones</h2>
-            <p class="lead">Una experiencia fluida y moderna que conecta a las personas con los mejores negocios cerca de ellos.</p>
+            <h2 class="section-title mb-3 text-white text-reveal">No te quedes viendo cómo otros crecen</h2>
+            <p class="lead">Consigue el sistema que llena tu negocio de clientes nuevos.</p>
           </div>
         </div>
       </div>
