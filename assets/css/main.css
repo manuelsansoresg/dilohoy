@@ -281,8 +281,10 @@ section{padding:64px 0}
 
   .parallax-bg {
     background-image: url('/assets/images/parallax%20movil.jpg');
-    background-size: 100% auto; /* Show full image width */
-    background-position: center center;
+    background-size: cover;
+    background-position: center;
+    height: 150%; /* Reduce height slightly for mobile to minimize zoom */
+    top: -25%;
   }
 
   .hero-overlay h1, .hero-overlay p {
