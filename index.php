@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/banner%201.jpg">
+          <img class="d-none d-md-block w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/banner%201.jpg">
           <img class="d-block d-md-none w-100" alt="Restaurante con reseñas" src="/assets/images/carrusel/banner%201movil.jpg">
           <div class="hero-overlay d-flex align-items-center">
             <div class="container">
