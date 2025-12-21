@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
-  <link href="assets/css/main.css?v=2.5" rel="stylesheet">
+  <link href="assets/css/main.css?v=2.6" rel="stylesheet">
 </head>
 <body>
   <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -603,7 +603,7 @@
         <div class="col-12 col-md-4 mb-3">
           <h5>Contacto</h5>
           <ul class="list-unstyled">
-            <li><i class="fas fa-envelope me-2"></i><a href="#">hola@tuapp.com</a></li>
+            <li><i class="fas fa-envelope me-2"></i><a href="#">hola@dilohoy.com</a></li>
             <li><i class="fas fa-phone me-2"></i><a href="#">+52 55 0000 0000</a></li>
             <li><i class="fas fa-map-marker-alt me-2"></i><a href="#">CDMX, México</a></li>
           </ul>
@@ -613,7 +613,6 @@
           <ul class="list-unstyled">
             <li><a href="#">Términos y Condiciones</a></li>
             <li><a href="#">Aviso de Privacidad</a></li>
-            <li><a href="#">Cookies</a></li>
           </ul>
         </div>
         <div class="col-12 col-md-4 mb-3">
@@ -628,7 +627,7 @@
       </div>
       <div class="row mt-3">
         <div class="col-12 text-center text-muted">
-          <small>© 2025 TuApp de Reseñas. Todos los derechos reservados.</small>
+          <small>© 2026 dilohoy. Todos los derechos reservados.</small>
         </div>
       </div>
     </div>

@@ -266,6 +266,15 @@ section{padding:64px 0}
   .footer ul li {
     margin-bottom: 0.5rem;
   }
+
+  /* Advantages Section Mobile */
+  .advantage-wrapper {
+    padding: 16px !important; /* Reduced from 48px to give more space to cards */
+  }
+  
+  .advantage-card {
+    width: 100%; /* Ensure it takes full width */
+  }
 }
 
 /* Google Color Outline Buttons */
