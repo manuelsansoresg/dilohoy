@@ -208,10 +208,11 @@ section{padding:64px 0}
   }
   
   .hero .carousel-item img {
-    height: 85vh; /* Matched to container */
+    height: 70vh; /* Reduced height to show more of the image width */
     width: 100%;
-    object-fit: cover;
-    object-position: center top;
+    object-fit: contain; /* Changed from cover to contain to show full image */
+    object-position: center;
+    background-color: #000; /* Fill empty space with black if aspect ratio differs */
   }
 
   .hero .display-4 {
