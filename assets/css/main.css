@@ -199,7 +199,9 @@ section{padding:64px 0}
   }
   
   .hero .carousel-item img {
-    height: 100vh;
+    height: 65vh; /* Less than 100vh to avoid extreme cropping */
+    object-fit: cover;
+    object-position: center;
   }
 
   .hero .display-4 {

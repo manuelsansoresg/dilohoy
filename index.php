@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
-  <link href="assets/css/main.css?v=2.3" rel="stylesheet">
+  <link href="assets/css/main.css?v=2.4" rel="stylesheet">
 </head>
 <body>
   <header class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -504,94 +504,93 @@
           <h2 class="section-title text-reveal">Preguntas Frecuentes</h2>
         </div>
       </div>
-      <div class="row g-4">
-        <!-- Q1 -->
-        <div class="col-md-6">
-          <div class="faq-card">
-            <div class="d-flex align-items-start">
-              <div class="faq-icon me-3">
-                <i class="far fa-question-circle"></i>
-              </div>
-              <div>
-                <h5 class="fw-bold mb-2">¿Necesito guardar el contacto del cliente?</h5>
-                <p class="text-muted mb-0">No. El enlace es directo y funciona sin necesidad de agregar números a tu agenda. Simplemente compartes el link por SMS o WhatsApp y listo.</p>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion">
+            <!-- Q1 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded overflow-hidden">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <i class="far fa-question-circle me-2 text-primary"></i> ¿Necesito guardar el contacto del cliente?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  No. El enlace es directo y funciona sin necesidad de agregar números a tu agenda. Simplemente compartes el link por SMS o WhatsApp y listo.
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Q2 -->
-        <div class="col-md-6">
-          <div class="faq-card">
-            <div class="d-flex align-items-start">
-              <div class="faq-icon me-3">
-                <i class="far fa-clock"></i>
-              </div>
-              <div>
-                <h5 class="fw-bold mb-2">¿Cuánto tiempo toma configurar DiloHoy?</h5>
-                <p class="text-muted mb-0">Menos de 5 minutos. Creas tu cuenta, personalizas tu mensaje y empiezas a enviar invitaciones de inmediato. No requiere conocimientos técnicos.</p>
+            <!-- Q2 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded overflow-hidden">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="far fa-clock me-2 text-primary"></i> ¿Cuánto tiempo toma configurar DiloHoy?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Menos de 5 minutos. Creas tu cuenta, personalizas tu mensaje y empiezas a enviar invitaciones de inmediato. No requiere conocimientos técnicos.
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Q3 -->
-        <div class="col-md-6">
-          <div class="faq-card">
-            <div class="d-flex align-items-start">
-              <div class="faq-icon me-3">
-                <i class="fas fa-mobile-alt"></i>
-              </div>
-              <div>
-                <h5 class="fw-bold mb-2">¿Mis empleados gastan sus datos móviles?</h5>
-                <p class="text-muted mb-0">No. WhatsApp es gratis en la mayoría de planes telefónicos en Latinoamérica. Además, el consumo es mínimo, equivalente a enviar un mensaje de texto.</p>
+            <!-- Q3 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded overflow-hidden">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fas fa-mobile-alt me-2 text-primary"></i> ¿Mis empleados gastan sus datos móviles?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  No. WhatsApp es gratis en la mayoría de planes telefónicos en Latinoamérica. Además, el consumo es mínimo, equivalente a enviar un mensaje de texto.
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Q4 -->
-        <div class="col-md-6">
-          <div class="faq-card">
-            <div class="d-flex align-items-start">
-              <div class="faq-icon me-3">
-                <i class="fas fa-globe-americas"></i>
-              </div>
-              <div>
-                <h5 class="fw-bold mb-2">¿Funciona en todos los países de Latinoamérica?</h5>
-                <p class="text-muted mb-0">Sí. DiloHoy funciona en México, Colombia, Argentina, Chile, Perú y todos los países donde Google Maps y WhatsApp estén disponibles.</p>
+            <!-- Q4 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded overflow-hidden">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <i class="fas fa-globe-americas me-2 text-primary"></i> ¿Funciona en todos los países de Latinoamérica?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Sí. DiloHoy funciona en México, Colombia, Argentina, Chile, Perú y todos los países donde Google Maps y WhatsApp estén disponibles.
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Q5 -->
-        <div class="col-md-6">
-          <div class="faq-card">
-            <div class="d-flex align-items-start">
-              <div class="faq-icon me-3">
-                <i class="fas fa-gavel"></i>
-              </div>
-              <div>
-                <h5 class="fw-bold mb-2">¿Es legal filtrar las reseñas negativas?</h5>
-                <p class="text-muted mb-0">Completamente legal. No eliminamos ni censuramos reseñas. Solo dirigimos a los clientes insatisfechos a un canal privado donde pueden expresarse y tú puedes resolver el problema.</p>
+            <!-- Q5 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded overflow-hidden">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <i class="fas fa-gavel me-2 text-primary"></i> ¿Es legal filtrar las reseñas negativas?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Completamente legal. No eliminamos ni censuramos reseñas. Solo dirigimos a los clientes insatisfechos a un canal privado donde pueden expresarse y tú puedes resolver el problema.
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Q6 -->
-        <div class="col-md-6">
-          <div class="faq-card">
-            <div class="d-flex align-items-start">
-              <div class="faq-icon me-3">
-                <i class="far fa-times-circle"></i>
-              </div>
-              <div>
-                <h5 class="fw-bold mb-2">¿Puedo cancelar en cualquier momento?</h5>
-                <p class="text-muted mb-0">Por supuesto. No hay contratos anuales ni penalizaciones. Cancelas con un clic y solo pagas por el tiempo que usaste el servicio.</p>
+            <!-- Q6 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm rounded overflow-hidden">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <i class="far fa-times-circle me-2 text-primary"></i> ¿Puedo cancelar en cualquier momento?
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                <div class="accordion-body text-muted">
+                  Por supuesto. No hay contratos anuales ni penalizaciones. Cancelas con un clic y solo pagas por el tiempo que usaste el servicio.
+                </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
