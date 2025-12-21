@@ -229,7 +229,7 @@ section{padding:64px 0}
   }
 
   .hero-overlay {
-    background: linear-gradient(180deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.7) 100%); /* Much darker for better contrast */
+    background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 100%); /* Lighter overlay as requested */
     text-align: center;
     padding: 0 16px;
     display: flex;
