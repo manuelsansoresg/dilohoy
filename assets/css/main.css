@@ -199,20 +199,20 @@ section{padding:64px 0}
   }
   
   .hero .carousel-item img {
-    height: 65vh; /* Less than 100vh to avoid extreme cropping */
+    height: 85vh; /* Increased to ensure text fits without being cut off */
     object-fit: cover;
     object-position: center;
   }
 
   .hero .display-4 {
-    font-size: 1.75rem; /* Reduced from 2.2rem */
-    line-height: 1.1;
+    font-size: 1.6rem; /* Slightly smaller to save space */
+    line-height: 1.2;
     margin-bottom: 0.5rem;
   }
   
   .hero .lead {
-    font-size: 1.1rem; /* Increased size */
-    margin-top: 1.5rem !important; /* Increased spacing */
+    font-size: 1.05rem; /* Balanced size */
+    margin-top: 1rem !important; /* Reduced spacing to prevent overflow */
     line-height: 1.4;
   }
 
