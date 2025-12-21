@@ -192,16 +192,36 @@ section{padding:64px 0}
 
 /* Mobile Responsive Adjustments */
 @media (max-width: 768px) {
+  /* Fix body overflow and padding */
+  body {
+    overflow-x: hidden;
+    padding-top: 56px; /* Reduced padding for mobile navbar */
+  }
+
   /* Hero Section */
   .hero {
     height: auto;
     min-height: 100vh;
+    width: 100vw; /* Force full viewport width */
+    margin-left: calc(-50vw + 50%); /* Break out of any container constraints */
+    margin-right: calc(-50vw + 50%);
   }
   
   .hero .carousel-item img {
-    height: 85vh; /* Increased to ensure text fits without being cut off */
-    object-fit: cover;
+    height: 100vh; /* Restore to full height to cover everything */
+    width: 100%;
+    object-fit: cover; /* Ensure image covers the area without distortion */
     object-position: center;
+  }
+
+  /* Parallax Fix for Mobile */
+  .parallax {
+    background-attachment: scroll !important; /* Disable fixed parallax on mobile */
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important; /* Prevent repeating */
+    height: auto; /* Allow auto height */
+    min-height: 420px;
   }
 
   .hero .display-4 {
