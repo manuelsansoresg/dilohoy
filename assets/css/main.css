@@ -214,14 +214,7 @@ section{padding:64px 0}
     object-position: center top; /* Focus on top part (faces) */
   }
 
-  /* Parallax Fix for Mobile */
-  .parallax {
-    background-attachment: scroll !important; /* JS handles the effect */
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    height: auto;
-    min-height: 400px;
-  }
+
 
   .hero .display-4 {
     font-size: 1.6rem; /* Slightly smaller to save space */
@@ -236,12 +229,16 @@ section{padding:64px 0}
   }
 
   .hero-overlay {
-    background: linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 100%); /* Much lighter overlay */
+    background: linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.5) 100%); /* Darker overlay for readability */
     text-align: center;
     padding: 0 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .hero-overlay h1, .hero-overlay p {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.9); /* Stronger shadow for mobile */
   }
 
   .hero-overlay .container {
