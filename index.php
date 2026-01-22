@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mapa de Negocios con Reseñas</title>
+  <title>Consigue más Reseñas Google y Filtra Comentarios Negativos | Dilohoy</title>
+  <meta name="description" content="Automatiza la recolección de 5 estrellas en Google Maps. Nuestro software filtra quejas en privado, bloquea malas reseñas y sube tu ranking. ¡Prueba el sistema!">
+  <meta name="keywords" content="sistema de reseñas google, blindaje de reputación online, publicidad boca a boca digital, protección contra reseñas falsas, posicionamiento seo local, automatización de marketing, filtro de opiniones clientes, software para pymes mexico, conseguir mas ventas google, código qr para reseñas, negocios con 5 estrellas, dilohoy, búsqueda de negocios en celulares">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
@@ -31,10 +33,10 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-8 text-start">
-                  <h1 class="display-4 fw-bold">Multiplica tus Reseñas de 5 Estrellas en Google Maps en 30 Segundos</h1>
-                  <p class="lead mt-3">Transforma a tus empleados en tu mejor equipo de marketing. Fácil y Rápido, usando solo Mensajes SMS / WhatsApp. DiloHoy te ayuda a conseguir más reseñas positivas automáticamente mientras proteges tu reputación en línea.</p>
+                  <h1 class="display-4 fw-bold">Multiplica tus Reseñas de 5 Estrellas en Google Maps</h1>
+                  <p class="lead mt-3">Aumenta tus calificaciones positivas y usa nuestro <span class="fw-bold">Escudo Protector</span> para evitar que malas experiencias se hagan públicas</p>
                   <div class="mt-4">
-                    <a href="#" class="btn btn-primary btn-lg me-2">Ver Planes y Precios</a>
+                    <a href="#precios" class="btn btn-primary btn-lg me-2">Ver Planes y Precios</a>
                     <a href="#" class="btn btn-outline-primary btn-lg">Contratar</a>
                   </div>
                 </div>
@@ -200,9 +202,9 @@
           <div class="step-card" data-aos="fade-up" data-aos-delay="0">
             <div class="step-number">01</div>
             <div class="step-divider"></div>
-            <h3 class="fw-bold mb-3">Invitación Instantánea</h3>
+            <h3 class="fw-bold mb-3">Activación Inmediata y Simple</h3>
             <p class="text-muted">
-              Tu empleado envía un enlace personalizado por WhatsApp en solo 10 segundos. Sin apps, sin complicaciones. El cliente recibe un mensaje amigable para calificar su experiencia.
+              En menos de 5 minutos, y sin necesitar página web, tu negocio queda configurado con enlaces y QRs inteligentes listos para usar. Es un sistema 100% seguro y legal para tu perfil de Google Maps.
             </p>
           </div>
         </div>
@@ -211,9 +213,9 @@
           <div class="step-card" data-aos="fade-up" data-aos-delay="100">
             <div class="step-number">02</div>
             <div class="step-divider"></div>
-            <h3 class="fw-bold mb-3">Calificación Simple</h3>
+            <h3 class="fw-bold mb-3">xperiencia Flexible para el Cliente</h3>
             <p class="text-muted">
-              El cliente da clic en el enlace (recibido por WhatsApp o SMS) y accede al instante a nuestro <strong>Menú de Estrellas Inteligente</strong>, en segundos.
+              El cliente no descarga ninguna app. Ofrece privacidad escaneando el QR Inteligente, directo, o mide la productividad de tu equipo enviando el enlace por WhatsApp al cliente. Ambas opciones son rápidas y sin fricción.
             </p>
           </div>
         </div>
@@ -222,9 +224,9 @@
           <div class="step-card" data-aos="fade-up" data-aos-delay="200">
             <div class="step-number">03</div>
             <div class="step-divider"></div>
-            <h3 class="fw-bold mb-3">Magia Inteligente</h3>
+            <h3 class="fw-bold mb-3">El "Escudo Protector" en Acción</h3>
             <p class="text-muted">
-              Si da 5 estrellas ⭐, lo dirigimos automáticamente a Google Maps para publicar su reseña. Si da 4-1 estrellas, lo enviamos a un buzón privado donde puedes resolver el problema discretamente.
+              Aquí ocurre la magia: Las calificaciones de 4 y 5 estrellas (Calificaciones Positivas) se dirigen automáticamente a Google Maps. Las de 1 a 3 estrellas (Calificaciones Negativas) se filtran a un buzón privado para proteger tu reputación pública.
             </p>
           </div>
         </div>
@@ -246,7 +248,7 @@
         <div class="col-lg-6 ps-lg-5" data-aos="fade-left">
           <h3 class="h4 fw-bold mb-3 text-primary">El Poder del Filtro</h3>
           <p class="lead mb-4 text-muted" style="font-size: 1.1rem;">
-            Con DiloHoy, tus clientes satisfechos publican reseñas de 5 estrellas con un solo clic. El resultado: tu calificación sube constantemente y atraes más clientes cada semana.
+            Con DiloHoy, tus clientes satisfechos publican reseñas de 5 y 4 estrellas con un solo clic. El resultado: tu calificación sube constantemente y atraes más clientes cada semana.
           </p>
           <p class="text-muted">
             Al mismo tiempo, las críticas negativas se reducen en un 99% en Google Maps. En su lugar, recibes feedback privado que te permite resolver problemas antes de que dañen tu reputación. Convierte quejas en oportunidades de mejora.
@@ -265,21 +267,21 @@
       </div>
       <div class="row g-4 text-start">
         <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="0">
-          <h3 class="h4 fw-bold mb-3">Costo Cero por Mensaje</h3>
+          <h3 class="h4 fw-bold mb-3">Sin Descargas</h3>
           <p class="lead text-white" style="font-size: 1.1rem; opacity: 0.9;">
-            Usa el WhatsApp del empleado o del negocio. No pagues por SMS costosos ni servicios de mensajería. Ahorra miles de pesos al mes mientras llegas a más clientes.
+            Tus clientes no necesitan instalar nada. La experiencia es instantánea: atreves de tu empleado(s) se envía al cliente un enlace (Invitación) o, para mayor privacidad y rapidez, tu cliente escanea directamente tu Código QR Inteligente sin necesidad de compartir su número de teléfono. Sin fricciones, directo a las estrellas.
           </p>
         </div>
         <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
           <h3 class="h4 fw-bold mb-3">Productividad de Empleados</h3>
           <p class="lead text-white" style="font-size: 1.1rem; opacity: 0.9;">
-            Mide quién consigue más reseñas y premia a tu mejor mesero, recepcionista o mecánico. Convierte la atención al cliente en un juego motivador con rankings en tiempo real.
+            Mide con exactitud quién consigue más reseñas a través de los enlaces personalizados y premia a tu mejor mesero, recepcionista o mecánico. Convierte la atención al cliente en un juego motivador con rankings en tiempo real que incentivan a tu equipo a cuidar tu reputación.
           </p>
         </div>
         <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="h4 fw-bold mb-3">Sin Descargas</h3>
+          <h3 class="h4 fw-bold mb-3">Costo Cero por Mensaje Extra</h3>
           <p class="lead text-white" style="font-size: 1.1rem; opacity: 0.9;">
-            Tus clientes no necesitan instalar nada. Es un enlace directo que funciona en cualquier teléfono. La experiencia es instantánea y sin fricciones desde el primer momento.
+            Olvídate de pagar tarifas variables o costos ocultos por cada envío. A diferencia de otros servicios que cobran por SMS unitario, tu plan DiloHoy ya incluye un paquete fijo de invitaciones (50, 100 o hasta 400 al mes, según tu licencia) listas para enviarse vía WhatsApp o SMS. Así tienes control total de tu presupuesto.
           </p>
         </div>
       </div>
@@ -330,77 +332,25 @@
     </div>
   </section>
 
-  <section id="casos" class="reveal">
-    <div class="container">
-      <div class="row mb-4 align-items-center">
-        <div class="col-12 col-md-6 text-center">
-          <img src="/assets/images/ejemplo youtube.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="col-12 col-md-6 text-center ">
-          <h2 class="text-muted display-2 text-reveal">Lo que opinan <br> Nuestros Clientes </h2>
-          
-        </div>
-      </div>
-      
-    </div>
-  </section>
+  
 
   <section id="testimonios" class="reveal">
     <div class="container">
       <div class="row mb-4">
         <div class="col-12 text-center">
+          <h2 class="text-muted display-5 text-reveal">Lo que opinan  Nuestros Clientes </h2>
+        </div>
+        <div class="col-12 text-center">
+          
           <h2 class="section-title text-reveal">Negocios Que Ya Crecen Con DiloHoy</h2>
-          <p class="text-muted mt-3">Miles de empresas en toda Latinoamérica confían en nuestra plataforma para mejorar su reputación en línea y atraer más clientes cada día.</p>
         </div>
       </div>
-      <div class="row g-4 mt-5 testimonials-grid">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="testimonial-card position-relative text-center p-4">
-            <div class="testimonial-avatar mx-auto">
-              <img src="https://picsum.photos/id/1005/150/150" alt="Avatar 1">
-            </div>
-            <h5 class="testimonial-name mt-4">Desirae Carder</h5>
-            <p class="testimonial-quote">“La visibilidad en el mapa y las reseñas aumentaron mis reservas en semanas.”</p>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
-            </div>
-            <div class="testimonial-role mt-2">Fotógrafa</div>
-            <div class="testimonial-signature mt-2">Desirae</div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="testimonial-card position-relative text-center p-4">
-            <div class="testimonial-avatar mx-auto">
-              <img src="https://picsum.photos/id/1012/150/150" alt="Avatar 2">
-            </div>
-            <h5 class="testimonial-name mt-4">Luis Hernández</h5>
-            <p class="testimonial-quote">“Las reseñas verificadas generaron confianza y más consultas en mi clínica.”</p>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-            </div>
-            <div class="testimonial-role mt-2">Médico</div>
-            <div class="testimonial-signature mt-2">L. Hernández</div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="testimonial-card position-relative text-center p-4">
-            <div class="testimonial-avatar mx-auto">
-              <img src="https://picsum.photos/id/1001/150/150" alt="Avatar 3">
-            </div>
-            <h5 class="testimonial-name mt-4">María López</h5>
-            <p class="testimonial-quote">“El sistema es sencillo y la experiencia de los clientes mejoró notablemente.”</p>
-            <div class="testimonial-stars">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-            </div>
-            <div class="testimonial-role mt-2">Dueña de Restaurante</div>
-            <div class="testimonial-signature mt-2">M. López</div>
-          </div>
-        </div>
-      </div>
+      
     </div>
+    <section id="precios" class="reveal">
   </section>
 
-  <section id="precios" class="reveal">
+  
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 text-center">
@@ -602,30 +552,21 @@
 
   <footer id="footer" class="footer pt-5 pb-4 reveal">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4 mb-3">
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-6 mb-3">
           <h5>Contacto</h5>
           <ul class="list-unstyled">
             <li><i class="fas fa-envelope me-2"></i><a href="#">hola@dilohoy.com</a></li>
-            <li><i class="fas fa-phone me-2"></i><a href="#">+52 55 0000 0000</a></li>
+            <li><i class="fas fa-phone me-2"></i><a href="#">+52 735 178 7171</a></li>
             <li><i class="fas fa-map-marker-alt me-2"></i><a href="#">CDMX, México</a></li>
           </ul>
         </div>
-        <div class="col-12 col-md-4 mb-3">
+        <div class="col-12 col-md-6 mb-3">
           <h5>Legales</h5>
           <ul class="list-unstyled">
             <li><a href="#">Términos y Condiciones</a></li>
             <li><a href="#">Aviso de Privacidad</a></li>
           </ul>
-        </div>
-        <div class="col-12 col-md-4 mb-3">
-          <h5>Redes Sociales</h5>
-          <div class="d-flex gap-3">
-            <a href="#" class="text-decoration-none"><i class="fab fa-facebook fa-lg"></i></a>
-            <a href="#" class="text-decoration-none"><i class="fab fa-twitter fa-lg"></i></a>
-            <a href="#" class="text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
-            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin fa-lg"></i></a>
-          </div>
         </div>
       </div>
       <div class="row mt-3">
